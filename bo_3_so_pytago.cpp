@@ -9,7 +9,7 @@ void slove(){
     vector<long long> a(n);
     for(int i=0;i<n;i++){
         cin >> a[i];
-        // a[i]*=a[i];
+        a[i]*=a[i];
     }
     sort(a.begin(),a.end());
     for(int i=0;i<n-2;i++){
